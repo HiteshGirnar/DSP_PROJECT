@@ -1,0 +1,557 @@
+record_id,timestamp,device_id,device_type,patient_id,ward,reading_value,source_ip,auth_status,firmware_version,request_count_per_min,threat_name,stride_category,detected_by,rule_reason
+12385,2026-09-01 00:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,158.36,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+10082,2026-09-01 00:15:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,10.79,10.20.1.17,success,v3.2.2,1,normal,Under Review,ml_only,
+12386,2026-09-01 00:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,150.13,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+10083,2026-09-01 00:30:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,141.31,10.20.1.17,success,v3.2.2,1,normal,Under Review,ml_only,
+16421,2026-09-01 01:00:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.73,10.20.2.196,success,v3.2.1,217,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12390,2026-09-01 01:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,179.22,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+12391,2026-09-01 01:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,152.2,185.220.101.201,success,v3.3.0,2,unauthorized_ip_access,Elevation of Privilege,rule+ml,external_ip;
+19016,2026-09-01 01:45:00,DEV-1066,bp_monitor,PT-59211,General-A,376.21,10.20.1.77,success,v3.3.0,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+296,2026-09-01 01:45:00,DEV-1001,wearable_ecg,PT-49498,ICU,80.38,10.20.3.164,success,v3.2.1,268,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+15561,2026-09-01 02:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.74,10.20.1.21,success,v3.2.1,3,normal,Under Review,ml_only,
+9801,2026-09-01 02:00:00,DEV-1034,smart_infusion_pump,PT-19552,ICU,147.36,10.20.3.230,success,v3.2.1,1,normal,Under Review,ml_only,
+11241,2026-09-01 02:00:00,DEV-1039,glucose_monitor,PT-42562,General-A,178.02,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+4042,2026-09-01 02:15:00,DEV-1014,wearable_spo2,PT-81610,ICU,99.32,10.20.2.52,success,v3.2.1,1,normal,Under Review,ml_only,
+298,2026-09-01 02:15:00,DEV-1001,wearable_ecg,PT-49498,ICU,62.74,10.20.3.164,success,v3.2.1,158,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12394,2026-09-01 02:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,165.86,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12395,2026-09-01 02:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,132.62,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+20171,2026-09-01 02:30:00,DEV-1070,bp_monitor,PT-57983,ICU,132.02,10.20.1.146,success,v3.3.0,1,normal,Under Review,ml_only,
+13547,2026-09-01 02:30:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,169.83,10.20.2.8,success,v3.2.2,1,normal,Under Review,ml_only,
+6924,2026-09-01 02:45:00,DEV-1024,smart_infusion_pump,PT-49564,Cardiology,143.91,10.20.2.74,success,v3.2.2,1,normal,Under Review,ml_only,
+15564,2026-09-01 02:45:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.01,10.20.1.21,success,v3.2.1,265,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+16142,2026-09-01 03:15:00,DEV-1056,smart_thermometer,PT-34825,General-B,36.71,10.20.3.139,success,v3.3.0,2,normal,Under Review,ml_only,
+302,2026-09-01 03:15:00,DEV-1001,wearable_ecg,PT-49498,ICU,62.93,10.20.3.164,success,v3.2.1,293,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11247,2026-09-01 03:30:00,DEV-1039,glucose_monitor,PT-42562,General-A,176.57,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+10672,2026-09-01 03:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,172.23,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+14128,2026-09-01 03:45:00,DEV-1049,smart_thermometer,PT-68485,Cardiology,93.97,10.20.2.162,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+6928,2026-09-01 03:45:00,DEV-1024,smart_infusion_pump,PT-49564,Cardiology,14.74,10.20.2.74,success,v3.2.2,1,normal,Under Review,ml_only,
+15569,2026-09-01 04:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.34,10.20.1.21,success,v3.2.1,1,normal,Under Review,ml_only,
+12401,2026-09-01 04:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,179.67,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+10098,2026-09-01 04:15:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,20.73,10.20.1.17,success,v3.2.2,1,normal,Under Review,ml_only,
+12402,2026-09-01 04:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,128.83,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+11251,2026-09-01 04:30:00,DEV-1039,glucose_monitor,PT-42562,General-A,158.03,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+16147,2026-09-01 04:30:00,DEV-1056,smart_thermometer,PT-34825,General-B,37.27,10.20.3.139,success,v3.3.0,1,normal,Under Review,ml_only,
+12403,2026-09-01 04:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,149.58,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+10099,2026-09-01 04:30:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,24.37,10.20.1.17,success,v3.2.2,2,normal,Under Review,ml_only,
+12404,2026-09-01 04:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,127.53,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+11252,2026-09-01 04:45:00,DEV-1039,glucose_monitor,PT-42562,General-A,148.74,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+10965,2026-09-01 05:00:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,172.74,10.20.2.27,success,v3.2.1,3,normal,Under Review,ml_only,
+11253,2026-09-01 05:00:00,DEV-1039,glucose_monitor,PT-42562,General-A,179.45,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+15573,2026-09-01 05:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.14,10.20.1.21,success,v3.2.1,1,normal,Under Review,ml_only,
+10101,2026-09-01 05:00:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,143.09,10.20.1.17,success,v3.2.2,2,normal,Under Review,ml_only,
+11541,2026-09-01 05:00:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,178.81,10.20.2.6,success,v3.2.1,2,normal,Under Review,ml_only,
+12406,2026-09-01 05:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,168.59,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12408,2026-09-01 05:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,179.28,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+16153,2026-09-01 06:00:00,DEV-1056,smart_thermometer,PT-34825,General-B,133.54,10.20.3.139,success,v3.3.0,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+12412,2026-09-01 06:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,179.29,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+10396,2026-09-01 06:45:00,DEV-1036,glucose_monitor,PT-94423,ICU,176.32,10.20.2.233,success,v3.2.1,2,normal,Under Review,ml_only,
+3197,2026-09-01 07:00:00,DEV-1011,wearable_ecg,PT-52004,General-B,241.65,10.20.1.215,success,v3.2.2,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+2622,2026-09-01 07:15:00,DEV-1009,wearable_ecg,PT-41906,General-B,94.98,10.20.3.179,success,v3.2.2,399,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10686,2026-09-01 07:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,165.8,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+12414,2026-09-01 07:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,107.56,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12415,2026-09-01 07:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,144.59,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+15584,2026-09-01 07:45:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.06,10.20.1.21,success,v3.2.1,250,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+2624,2026-09-01 07:45:00,DEV-1009,wearable_ecg,PT-41906,General-B,62.86,10.20.3.179,success,v3.2.2,286,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+16160,2026-09-01 07:45:00,DEV-1056,smart_thermometer,PT-34825,General-B,37.8,10.20.3.139,success,v3.3.0,2,normal,Under Review,ml_only,
+10977,2026-09-01 08:00:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,178.2,10.20.2.27,success,v3.2.1,3,normal,Under Review,ml_only,
+12417,2026-09-01 08:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,158.21,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+16450,2026-09-01 08:15:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.0,10.20.2.196,success,v3.2.1,224,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10114,2026-09-01 08:15:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,141.57,10.20.1.17,success,v3.2.2,3,normal,Under Review,ml_only,
+8388,2026-09-01 08:45:00,DEV-1029,smart_infusion_pump,PT-46767,ICU,96.14,194.61.24.208,success,v3.2.1,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+10116,2026-09-01 08:45:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,22.62,10.20.1.17,success,v3.2.2,1,normal,Under Review,ml_only,
+10980,2026-09-01 08:45:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,160.69,10.20.2.27,success,v3.2.1,1,normal,Under Review,ml_only,
+10117,2026-09-01 09:00:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,146.13,10.20.1.17,success,v3.2.2,2,normal,Under Review,ml_only,
+16165,2026-09-01 09:00:00,DEV-1056,smart_thermometer,PT-34825,General-B,36.82,10.20.3.139,success,v3.3.0,3,normal,Under Review,ml_only,
+12709,2026-09-01 09:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,176.68,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+20197,2026-09-01 09:00:00,DEV-1070,bp_monitor,PT-57983,ICU,107.58,10.20.1.146,success,v3.3.0,339,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+2918,2026-09-01 09:15:00,DEV-1010,wearable_ecg,PT-78390,ICU,85.23,185.220.101.56,success,v3.2.1,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+12711,2026-09-01 09:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,162.48,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+12425,2026-09-01 10:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,176.71,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+16170,2026-09-01 10:15:00,DEV-1056,smart_thermometer,PT-34825,General-B,36.64,10.20.3.139,success,v3.3.0,1,normal,Under Review,ml_only,
+12426,2026-09-01 10:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,167.94,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+13578,2026-09-01 10:15:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,83.89,185.220.101.82,success,v3.2.2,1,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+11274,2026-09-01 10:15:00,DEV-1039,glucose_monitor,PT-42562,General-A,172.96,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+10987,2026-09-01 10:30:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,194.35,10.20.2.27,success,v3.2.1,1,spoofed_vital_reading,Tampering,ml_only,
+43,2026-09-01 10:30:00,DEV-1000,wearable_ecg,PT-18032,Cardiology,318.62,10.20.2.211,success,v3.3.0,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12427,2026-09-01 10:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,156.18,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+16461,2026-09-01 11:00:00,DEV-1057,smart_thermometer,PT-54163,ICU,36.38,10.20.2.196,success,v3.2.1,169,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+16173,2026-09-01 11:00:00,DEV-1056,smart_thermometer,PT-34825,General-B,37.71,10.20.3.139,success,v3.3.0,1,normal,Under Review,ml_only,
+12143,2026-09-01 11:30:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,171.23,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+7247,2026-09-01 11:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,32.54,10.20.3.138,success,v3.2.2,317,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+15599,2026-09-01 11:30:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.77,10.20.1.21,success,v3.2.1,306,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11856,2026-09-01 11:45:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,176.08,10.20.3.182,success,v3.2.2,2,normal,Under Review,ml_only,
+20802,2026-09-01 11:59:32,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,19,brute_force_auth,Spoofing,rule_only,auth_failed;
+20803,2026-09-01 11:59:36,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20804,2026-09-01 11:59:40,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,18,brute_force_auth,Spoofing,rule_only,auth_failed;
+20805,2026-09-01 11:59:44,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,18,brute_force_auth,Spoofing,rule_only,auth_failed;
+20806,2026-09-01 11:59:48,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20807,2026-09-01 11:59:52,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20808,2026-09-01 11:59:56,DEV-1033,smart_infusion_pump,PT-46574,General-A,,10.20.1.170,failed,v3.2.1,17,brute_force_auth,Spoofing,rule_only,auth_failed;
+16177,2026-09-01 12:00:00,DEV-1056,smart_thermometer,PT-34825,General-B,36.35,10.20.3.139,success,v3.3.0,1,normal,Under Review,ml_only,
+2641,2026-09-01 12:00:00,DEV-1009,wearable_ecg,PT-41906,General-B,67.57,10.20.3.179,success,v3.2.2,361,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+15601,2026-09-01 12:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.87,10.20.1.21,success,v3.2.1,283,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12434,2026-09-01 12:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,160.58,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+20499,2026-09-01 12:30:00,DEV-1071,bp_monitor,PT-49158,ICU,135.48,194.61.24.214,success,v3.2.2,1,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+12435,2026-09-01 12:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,170.59,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+10995,2026-09-01 12:30:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,167.72,10.20.2.27,success,v3.2.1,1,normal,Under Review,ml_only,
+10707,2026-09-01 12:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,165.45,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+16179,2026-09-01 12:30:00,DEV-1056,smart_thermometer,PT-34825,General-B,36.11,10.20.3.139,success,v3.3.0,1,normal,Under Review,ml_only,
+11284,2026-09-01 12:45:00,DEV-1039,glucose_monitor,PT-42562,General-A,159.21,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+12436,2026-09-01 12:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,165.14,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+20212,2026-09-01 12:45:00,DEV-1070,bp_monitor,PT-57983,ICU,102.27,10.20.1.146,success,v3.3.0,390,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12437,2026-09-01 13:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,155.97,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+13302,2026-09-01 13:15:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,177.03,10.20.1.239,success,v3.2.2,1,normal,Under Review,ml_only,
+8407,2026-09-01 13:30:00,DEV-1029,smart_infusion_pump,PT-46767,ICU,445.09,10.20.1.68,success,v3.2.1,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+11289,2026-09-01 14:00:00,DEV-1039,glucose_monitor,PT-42562,General-A,175.19,10.20.1.204,success,v3.3.0,2,normal,Under Review,ml_only,
+17338,2026-09-01 14:15:00,DEV-1060,bp_monitor,PT-42730,Pediatrics,136.67,45.155.204.166,success,v3.2.1,1,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+6682,2026-09-01 14:15:00,DEV-1023,wearable_spo2,PT-51301,ICU,269.68,10.20.1.96,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+1786,2026-09-01 14:15:00,DEV-1006,wearable_ecg,PT-50540,General-A,80.88,185.220.101.134,success,v3.2.1,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+12731,2026-09-01 14:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,177.91,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+12732,2026-09-01 14:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,176.31,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+12444,2026-09-01 14:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,165.66,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+20221,2026-09-01 15:00:00,DEV-1070,bp_monitor,PT-57983,ICU,132.48,10.20.1.146,success,v3.3.0,346,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12446,2026-09-01 15:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,162.89,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+10430,2026-09-01 15:15:00,DEV-1036,glucose_monitor,PT-94423,ICU,167.44,10.20.2.233,success,v3.2.1,2,normal,Under Review,ml_only,
+18783,2026-09-01 15:30:00,DEV-1065,bp_monitor,PT-92440,General-A,370.34,10.20.1.33,success,v3.2.2,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+15615,2026-09-01 15:30:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.51,10.20.1.21,success,v3.2.1,304,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11296,2026-09-01 15:45:00,DEV-1039,glucose_monitor,PT-42562,General-A,179.71,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+11297,2026-09-01 16:00:00,DEV-1039,glucose_monitor,PT-42562,General-A,174.21,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+11010,2026-09-01 16:15:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,179.78,10.20.2.27,success,v3.2.1,1,normal,Under Review,ml_only,
+2658,2026-09-01 16:15:00,DEV-1009,wearable_ecg,PT-41906,General-B,58.46,10.20.3.179,success,v3.2.2,300,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+355,2026-09-01 16:30:00,DEV-1001,wearable_ecg,PT-49498,ICU,181.71,10.20.3.164,success,v3.2.1,1,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+11012,2026-09-01 16:45:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,177.01,10.20.2.27,success,v3.2.1,1,normal,Under Review,ml_only,
+10724,2026-09-01 16:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,150.9,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+6981,2026-09-01 17:00:00,DEV-1024,smart_infusion_pump,PT-49564,Cardiology,147.02,10.20.2.74,success,v3.2.2,3,normal,Under Review,ml_only,
+12456,2026-09-01 17:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,177.64,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12457,2026-09-01 18:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,168.84,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+2665,2026-09-01 18:00:00,DEV-1009,wearable_ecg,PT-41906,General-B,96.23,10.20.3.179,success,v3.2.2,384,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11017,2026-09-01 18:00:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,169.37,10.20.2.27,success,v3.2.1,2,normal,Under Review,ml_only,
+11594,2026-09-01 18:15:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,129.88,10.20.2.6,success,v2.1.4,3,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+13322,2026-09-01 18:15:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,169.36,10.20.1.239,success,v3.2.2,3,normal,Under Review,ml_only,
+11306,2026-09-01 18:15:00,DEV-1039,glucose_monitor,PT-42562,General-A,179.06,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+11019,2026-09-01 18:30:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,163.33,10.20.2.27,success,v3.2.1,2,normal,Under Review,ml_only,
+12460,2026-09-01 18:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,157.02,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+1805,2026-09-01 19:00:00,DEV-1006,wearable_ecg,PT-50540,General-A,284.54,10.20.1.206,success,v3.2.1,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+15629,2026-09-01 19:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.17,10.20.1.21,success,v3.2.1,397,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10733,2026-09-01 19:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,175.29,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+9869,2026-09-01 19:00:00,DEV-1034,smart_infusion_pump,PT-19552,ICU,71.9,10.20.3.230,success,v2.0.0,2,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+12750,2026-09-01 19:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,176.62,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+12462,2026-09-01 19:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,173.83,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+10446,2026-09-01 19:15:00,DEV-1036,glucose_monitor,PT-94423,ICU,164.82,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+20737,2026-09-01 19:29:32,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,14,brute_force_auth,Spoofing,rule_only,auth_failed;
+20738,2026-09-01 19:29:36,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20739,2026-09-01 19:29:40,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20740,2026-09-01 19:29:44,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,16,brute_force_auth,Spoofing,rule_only,auth_failed;
+20741,2026-09-01 19:29:48,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,19,brute_force_auth,Spoofing,rule_only,auth_failed;
+20742,2026-09-01 19:29:52,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+20743,2026-09-01 19:29:56,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,,10.20.2.225,failed,v3.3.0,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+12464,2026-09-01 19:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,165.03,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+17361,2026-09-01 20:00:00,DEV-1060,bp_monitor,PT-42730,Pediatrics,395.04,10.20.1.226,success,v3.2.1,3,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+19665,2026-09-01 20:00:00,DEV-1068,bp_monitor,PT-67134,General-A,112.13,10.20.2.81,success,v2.0.0,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+7281,2026-09-01 20:00:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,105.61,10.20.3.138,success,v3.2.2,219,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12466,2026-09-01 20:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,178.22,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+12178,2026-09-01 20:15:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,165.65,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+13618,2026-09-01 20:15:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,168.07,10.20.2.8,success,v3.2.2,1,normal,Under Review,ml_only,
+7283,2026-09-01 20:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,14.43,10.20.3.138,success,v2.1.4,3,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+12757,2026-09-01 21:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,175.46,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+14773,2026-09-01 21:00:00,DEV-1051,smart_thermometer,PT-39687,Cardiology,105.01,10.20.1.7,success,v3.2.2,3,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+13045,2026-09-01 21:00:00,DEV-1045,glucose_monitor,PT-28212,Pediatrics,142.61,10.20.2.44,success,v2.1.4,3,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+374,2026-09-01 21:15:00,DEV-1001,wearable_ecg,PT-49498,ICU,57.71,10.20.3.164,success,v3.2.1,315,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20246,2026-09-01 21:15:00,DEV-1070,bp_monitor,PT-57983,ICU,135.94,10.20.1.146,success,v3.3.0,367,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+3542,2026-09-01 21:15:00,DEV-1012,wearable_spo2,PT-93026,Cardiology,386.18,10.20.2.42,success,v3.2.1,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12758,2026-09-01 21:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,168.36,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+12471,2026-09-01 21:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,170.97,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+951,2026-09-01 21:30:00,DEV-1003,wearable_ecg,PT-78501,General-B,364.2,10.20.1.29,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12760,2026-09-01 21:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,174.82,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+15928,2026-09-01 21:45:00,DEV-1055,smart_thermometer,PT-96269,General-B,119.37,10.20.3.184,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+12473,2026-09-01 22:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,173.31,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+7289,2026-09-01 22:00:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,118.8,10.20.3.138,success,v3.2.2,383,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12761,2026-09-01 22:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,168.53,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+11322,2026-09-01 22:15:00,DEV-1039,glucose_monitor,PT-42562,General-A,169.85,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+12764,2026-09-01 22:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,169.83,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+18525,2026-09-01 23:00:00,DEV-1064,bp_monitor,PT-38860,ICU,415.14,10.20.2.205,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12480,2026-09-01 23:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,173.72,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+10753,2026-09-02 00:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,545.06,10.20.2.64,success,v3.2.1,1,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+11330,2026-09-02 00:15:00,DEV-1039,glucose_monitor,PT-42562,General-A,176.38,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+10754,2026-09-02 00:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,179.53,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+12484,2026-09-02 00:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,178.64,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+12485,2026-09-02 01:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,175.67,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+10469,2026-09-02 01:00:00,DEV-1036,glucose_monitor,PT-94423,ICU,116.69,185.220.101.100,success,v1.9.9,2,firmware_downgrade,Tampering,rule_only,external_ip;vulnerable_firmware;
+11046,2026-09-02 01:15:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,173.85,10.20.2.27,success,v3.2.1,1,normal,Under Review,ml_only,
+12487,2026-09-02 01:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,171.46,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+16520,2026-09-02 01:45:00,DEV-1057,smart_thermometer,PT-54163,ICU,36.46,10.20.2.196,success,v3.2.1,156,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+13352,2026-09-02 01:45:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,173.67,10.20.1.239,success,v3.2.2,2,normal,Under Review,ml_only,
+13064,2026-09-02 01:45:00,DEV-1045,glucose_monitor,PT-28212,Pediatrics,170.89,194.61.24.110,success,v3.2.1,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+15657,2026-09-02 02:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.42,10.20.1.21,success,v3.2.1,329,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12777,2026-09-02 02:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,179.98,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+20266,2026-09-02 02:15:00,DEV-1070,bp_monitor,PT-57983,ICU,108.29,10.20.1.146,success,v3.3.0,373,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11627,2026-09-02 02:30:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,159.63,10.20.2.6,success,v3.2.1,3,normal,Under Review,ml_only,
+396,2026-09-02 02:45:00,DEV-1001,wearable_ecg,PT-49498,ICU,55.71,10.20.3.164,success,v3.2.1,154,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11917,2026-09-02 03:00:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,169.74,10.20.3.182,success,v3.2.2,1,normal,Under Review,ml_only,
+10766,2026-09-02 03:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,174.48,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+16526,2026-09-02 03:15:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.58,10.20.2.196,success,v3.2.1,271,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12206,2026-09-02 03:15:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,155.73,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+10191,2026-09-02 03:30:00,DEV-1035,smart_infusion_pump,PT-75011,Cardiology,37.34,10.20.1.17,success,v1.9.9,2,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+9903,2026-09-02 03:30:00,DEV-1034,smart_infusion_pump,PT-19552,ICU,101.52,194.61.24.178,success,v3.2.1,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+12495,2026-09-02 03:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,156.56,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+12784,2026-09-02 03:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,176.86,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+17680,2026-09-02 03:45:00,DEV-1061,bp_monitor,PT-90653,General-A,449.84,10.20.2.21,success,v3.2.1,1,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+13361,2026-09-02 04:00:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,149.14,45.155.204.118,success,v3.2.2,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+10770,2026-09-02 04:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,157.79,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+3282,2026-09-02 04:15:00,DEV-1011,wearable_ecg,PT-52004,General-B,337.5,10.20.1.215,success,v3.2.2,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+11923,2026-09-02 04:30:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,174.39,10.20.3.182,success,v3.2.2,1,normal,Under Review,ml_only,
+20769,2026-09-02 04:44:24,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20770,2026-09-02 04:44:28,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,16,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20771,2026-09-02 04:44:32,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,16,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20772,2026-09-02 04:44:36,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,12,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20773,2026-09-02 04:44:40,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,14,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20774,2026-09-02 04:44:44,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20775,2026-09-02 04:44:48,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20776,2026-09-02 04:44:52,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,17,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20777,2026-09-02 04:44:56,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,12,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20793,2026-09-02 04:59:24,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20794,2026-09-02 04:59:28,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20795,2026-09-02 04:59:32,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,8,brute_force_auth,Spoofing,rule_only,auth_failed;
+20796,2026-09-02 04:59:36,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20797,2026-09-02 04:59:40,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20798,2026-09-02 04:59:44,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,19,brute_force_auth,Spoofing,rule_only,auth_failed;
+20799,2026-09-02 04:59:48,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,15,brute_force_auth,Spoofing,rule_only,auth_failed;
+20800,2026-09-02 04:59:52,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,14,brute_force_auth,Spoofing,rule_only,auth_failed;
+20801,2026-09-02 04:59:56,DEV-1036,glucose_monitor,PT-94423,ICU,,10.20.2.233,failed,v3.2.1,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+9046,2026-09-02 05:15:00,DEV-1031,smart_infusion_pump,PT-36423,ICU,223.75,10.20.2.9,success,v3.2.2,3,spoofed_vital_reading,Tampering,ml_only,
+12790,2026-09-02 05:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,159.05,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+12502,2026-09-02 05:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,166.56,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12503,2026-09-02 05:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,176.31,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+12215,2026-09-02 05:30:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,178.63,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+11352,2026-09-02 05:45:00,DEV-1039,glucose_monitor,PT-42562,General-A,167.06,10.20.1.204,success,v3.3.0,3,normal,Under Review,ml_only,
+11640,2026-09-02 05:45:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,178.8,10.20.2.6,success,v3.2.1,1,normal,Under Review,ml_only,
+408,2026-09-02 05:45:00,DEV-1001,wearable_ecg,PT-49498,ICU,74.46,10.20.3.164,success,v3.2.1,377,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12504,2026-09-02 05:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,165.16,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12793,2026-09-02 06:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,174.29,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+1273,2026-09-02 06:00:00,DEV-1004,wearable_ecg,PT-55031,General-A,55.04,194.61.24.146,success,v3.2.2,1,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+12794,2026-09-02 06:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,178.48,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+3004,2026-09-02 06:45:00,DEV-1010,wearable_ecg,PT-78390,ICU,84.05,10.20.2.77,success,v2.0.0,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+20287,2026-09-02 07:30:00,DEV-1070,bp_monitor,PT-57983,ICU,105.8,10.20.1.146,success,v3.3.0,341,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10783,2026-09-02 07:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,177.35,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+11937,2026-09-02 08:00:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,166.96,10.20.3.182,success,v3.2.2,1,normal,Under Review,ml_only,
+12226,2026-09-02 08:15:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,150.08,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+13090,2026-09-02 08:15:00,DEV-1045,glucose_monitor,PT-28212,Pediatrics,175.55,10.20.2.44,success,v3.2.1,1,normal,Under Review,ml_only,
+13955,2026-09-02 08:30:00,DEV-1048,smart_thermometer,PT-22620,General-B,36.91,10.20.1.105,success,v1.9.9,2,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+10787,2026-09-02 08:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,162.52,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+420,2026-09-02 08:45:00,DEV-1001,wearable_ecg,PT-49498,ICU,67.34,10.20.3.164,success,v3.2.1,304,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20293,2026-09-02 09:00:00,DEV-1070,bp_monitor,PT-57983,ICU,118.35,10.20.1.146,success,v3.3.0,253,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+16550,2026-09-02 09:15:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.24,10.20.2.196,success,v3.2.1,308,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20007,2026-09-02 09:30:00,DEV-1069,bp_monitor,PT-56354,Pediatrics,329.61,10.20.3.17,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+12808,2026-09-02 09:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,175.41,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+10792,2026-09-02 09:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,178.11,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+10793,2026-09-02 10:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,166.28,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+15689,2026-09-02 10:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.81,10.20.1.21,success,v3.2.1,177,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+428,2026-09-02 10:45:00,DEV-1001,wearable_ecg,PT-49498,ICU,78.74,10.20.3.164,success,v3.2.1,310,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10509,2026-09-02 11:00:00,DEV-1036,glucose_monitor,PT-94423,ICU,174.15,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+11085,2026-09-02 11:00:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,171.72,10.20.2.27,success,v3.2.1,1,normal,Under Review,ml_only,
+13678,2026-09-02 11:15:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,162.97,10.20.2.8,success,v3.2.2,1,normal,Under Review,ml_only,
+3598,2026-09-02 11:15:00,DEV-1012,wearable_spo2,PT-93026,Cardiology,265.23,10.20.2.42,success,v3.2.1,1,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12814,2026-09-02 11:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,166.6,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+16561,2026-09-02 12:00:00,DEV-1057,smart_thermometer,PT-54163,ICU,127.4,10.20.2.196,success,v3.2.1,3,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+10513,2026-09-02 12:00:00,DEV-1036,glucose_monitor,PT-94423,ICU,177.42,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+12242,2026-09-02 12:15:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,177.7,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+7346,2026-09-02 12:15:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,24.63,10.20.3.138,success,v3.2.2,296,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20749,2026-09-02 12:29:28,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,9,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20750,2026-09-02 12:29:32,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,13,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20751,2026-09-02 12:29:36,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,16,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20752,2026-09-02 12:29:40,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,13,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20753,2026-09-02 12:29:44,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,16,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20754,2026-09-02 12:29:48,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,19,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20755,2026-09-02 12:29:52,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,19,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20756,2026-09-02 12:29:56,DEV-1038,glucose_monitor,PT-71532,Cardiology,,10.20.2.27,failed,v3.2.1,10,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20757,2026-09-02 12:44:36,DEV-1054,smart_thermometer,PT-36527,ICU,,10.20.1.21,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20758,2026-09-02 12:44:40,DEV-1054,smart_thermometer,PT-36527,ICU,,10.20.1.21,failed,v3.2.1,15,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20759,2026-09-02 12:44:44,DEV-1054,smart_thermometer,PT-36527,ICU,,10.20.1.21,failed,v3.2.1,15,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20760,2026-09-02 12:44:48,DEV-1054,smart_thermometer,PT-36527,ICU,,10.20.1.21,failed,v3.2.1,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+20761,2026-09-02 12:44:52,DEV-1054,smart_thermometer,PT-36527,ICU,,10.20.1.21,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20762,2026-09-02 12:44:56,DEV-1054,smart_thermometer,PT-36527,ICU,,10.20.1.21,failed,v3.2.1,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+7348,2026-09-02 12:45:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,48.66,10.20.3.138,success,v3.2.2,223,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10805,2026-09-02 13:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,157.72,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+12822,2026-09-02 13:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,166.45,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+15415,2026-09-02 13:30:00,DEV-1053,smart_thermometer,PT-93259,General-B,134.83,10.20.2.153,success,v3.2.2,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+10522,2026-09-02 14:15:00,DEV-1036,glucose_monitor,PT-94423,ICU,164.39,10.20.2.233,success,v3.2.1,1,normal,Under Review,ml_only,
+10811,2026-09-02 14:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,173.46,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+12542,2026-09-02 15:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,167.67,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+20318,2026-09-02 15:15:00,DEV-1070,bp_monitor,PT-57983,ICU,124.52,10.20.1.146,success,v3.3.0,161,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+3327,2026-09-02 15:30:00,DEV-1011,wearable_ecg,PT-52004,General-B,96.11,185.220.101.204,success,v3.2.2,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+10528,2026-09-02 15:45:00,DEV-1036,glucose_monitor,PT-94423,ICU,172.34,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+11681,2026-09-02 16:00:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,177.01,10.20.2.6,success,v3.2.1,1,normal,Under Review,ml_only,
+10817,2026-09-02 16:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,179.44,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+20322,2026-09-02 16:15:00,DEV-1070,bp_monitor,PT-57983,ICU,119.38,10.20.1.146,success,v3.3.0,273,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12258,2026-09-02 16:15:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,156.44,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+12547,2026-09-02 16:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,177.57,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+11395,2026-09-02 16:30:00,DEV-1039,glucose_monitor,PT-42562,General-A,117.27,194.61.24.134,success,v3.3.0,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+16579,2026-09-02 16:30:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.58,10.20.2.196,success,v3.2.1,269,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+7363,2026-09-02 16:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,137.08,10.20.3.138,success,v3.2.2,361,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10820,2026-09-02 16:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,165.8,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+20324,2026-09-02 16:45:00,DEV-1070,bp_monitor,PT-57983,ICU,130.65,10.20.1.146,success,v3.3.0,296,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+11109,2026-09-02 17:00:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,146.1,185.220.101.243,success,v3.2.1,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+454,2026-09-02 17:15:00,DEV-1001,wearable_ecg,PT-49498,ICU,81.11,10.20.3.164,success,v3.2.1,360,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+7367,2026-09-02 17:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,147.17,10.20.3.138,success,v3.2.2,374,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+16586,2026-09-02 18:15:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.28,10.20.2.196,success,v3.2.1,349,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10826,2026-09-02 18:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,176.39,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+12556,2026-09-02 18:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,178.42,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+461,2026-09-02 19:00:00,DEV-1001,wearable_ecg,PT-49498,ICU,95.94,10.20.3.164,success,v3.2.1,193,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10829,2026-09-02 19:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,165.07,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+12846,2026-09-02 19:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,157.25,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+20763,2026-09-02 19:29:36,DEV-1016,wearable_spo2,PT-94626,General-B,,10.20.1.64,failed,v3.2.2,18,brute_force_auth,Spoofing,rule_only,auth_failed;
+20764,2026-09-02 19:29:40,DEV-1016,wearable_spo2,PT-94626,General-B,,10.20.1.64,failed,v3.2.2,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20765,2026-09-02 19:29:44,DEV-1016,wearable_spo2,PT-94626,General-B,,10.20.1.64,failed,v3.2.2,18,brute_force_auth,Spoofing,rule_only,auth_failed;
+20766,2026-09-02 19:29:48,DEV-1016,wearable_spo2,PT-94626,General-B,,10.20.1.64,failed,v3.2.2,18,brute_force_auth,Spoofing,rule_only,auth_failed;
+20767,2026-09-02 19:29:52,DEV-1016,wearable_spo2,PT-94626,General-B,,10.20.1.64,failed,v3.2.2,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+20768,2026-09-02 19:29:56,DEV-1016,wearable_spo2,PT-94626,General-B,,10.20.1.64,failed,v3.2.2,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+10544,2026-09-02 19:45:00,DEV-1036,glucose_monitor,PT-94423,ICU,174.71,10.20.2.233,success,v3.2.1,2,normal,Under Review,ml_only,
+12851,2026-09-02 20:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,137.3,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+10836,2026-09-02 20:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,173.12,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+12852,2026-09-02 20:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,163.53,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+12565,2026-09-02 21:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,159.1,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12853,2026-09-02 21:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,175.54,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+15734,2026-09-02 21:15:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.42,10.20.1.21,success,v3.2.1,333,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12854,2026-09-02 21:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,175.04,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+18615,2026-09-02 21:30:00,DEV-1064,bp_monitor,PT-38860,ICU,135.31,10.20.2.205,success,v3.2.1,1,normal,Under Review,ml_only,
+7383,2026-09-02 21:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,39.54,10.20.3.138,success,v3.2.2,262,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+15736,2026-09-02 21:45:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.31,10.20.1.21,success,v3.2.1,293,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12571,2026-09-02 22:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,465.15,10.20.1.153,success,v3.3.0,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+16603,2026-09-02 22:30:00,DEV-1057,smart_thermometer,PT-54163,ICU,37.51,10.20.2.196,success,v3.2.1,286,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+15740,2026-09-02 22:45:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.7,10.20.1.21,success,v3.2.1,377,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20348,2026-09-02 22:45:00,DEV-1070,bp_monitor,PT-57983,ICU,116.44,10.20.1.146,success,v3.3.0,209,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10844,2026-09-02 22:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,165.15,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+12284,2026-09-02 22:45:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,175.4,10.20.3.31,success,v3.2.1,2,normal,Under Review,ml_only,
+10559,2026-09-02 23:30:00,DEV-1036,glucose_monitor,PT-94423,ICU,170.59,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+12575,2026-09-02 23:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,166.19,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+11136,2026-09-02 23:45:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,162.72,10.20.2.27,success,v3.2.1,3,normal,Under Review,ml_only,
+11425,2026-09-03 00:00:00,DEV-1039,glucose_monitor,PT-42562,General-A,172.0,10.20.1.204,success,v3.3.0,1,normal,Under Review,ml_only,
+1057,2026-09-03 00:00:00,DEV-1003,wearable_ecg,PT-78501,General-B,75.86,10.20.1.29,success,v1.9.9,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+20809,2026-09-03 00:14:16,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20810,2026-09-03 00:14:20,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,19,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20811,2026-09-03 00:14:24,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20812,2026-09-03 00:14:28,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,17,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20813,2026-09-03 00:14:32,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20814,2026-09-03 00:14:36,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,16,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20815,2026-09-03 00:14:40,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,18,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20816,2026-09-03 00:14:44,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20817,2026-09-03 00:14:48,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20818,2026-09-03 00:14:52,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,14,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20819,2026-09-03 00:14:56,DEV-1062,bp_monitor,PT-69938,Cardiology,,10.20.1.111,failed,v3.2.2,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+13730,2026-09-03 00:15:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,179.08,10.20.2.8,success,v3.2.2,1,normal,Under Review,ml_only,
+1347,2026-09-03 00:30:00,DEV-1004,wearable_ecg,PT-55031,General-A,77.45,10.20.1.49,success,v2.1.4,3,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+20825,2026-09-03 00:44:16,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,16,brute_force_auth,Spoofing,rule_only,auth_failed;
+20826,2026-09-03 00:44:20,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20827,2026-09-03 00:44:24,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,15,brute_force_auth,Spoofing,rule_only,auth_failed;
+20828,2026-09-03 00:44:28,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,17,brute_force_auth,Spoofing,rule_only,auth_failed;
+20829,2026-09-03 00:44:32,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20830,2026-09-03 00:44:36,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,14,brute_force_auth,Spoofing,rule_only,auth_failed;
+20831,2026-09-03 00:44:40,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20832,2026-09-03 00:44:44,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20833,2026-09-03 00:44:48,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,15,brute_force_auth,Spoofing,rule_only,auth_failed;
+20834,2026-09-03 00:44:52,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,17,brute_force_auth,Spoofing,rule_only,auth_failed;
+20835,2026-09-03 00:44:56,DEV-1029,smart_infusion_pump,PT-46767,ICU,,10.20.1.68,failed,v3.2.1,15,brute_force_auth,Spoofing,rule_only,auth_failed;
+12292,2026-09-03 00:45:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,151.71,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+10853,2026-09-03 01:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,172.99,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+16614,2026-09-03 01:15:00,DEV-1057,smart_thermometer,PT-54163,ICU,36.41,10.20.2.196,success,v3.2.1,225,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20847,2026-09-03 01:44:36,DEV-1049,smart_thermometer,PT-68485,Cardiology,,10.20.2.162,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20848,2026-09-03 01:44:40,DEV-1049,smart_thermometer,PT-68485,Cardiology,,10.20.2.162,failed,v3.2.1,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+20849,2026-09-03 01:44:44,DEV-1049,smart_thermometer,PT-68485,Cardiology,,10.20.2.162,failed,v3.2.1,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20850,2026-09-03 01:44:48,DEV-1049,smart_thermometer,PT-68485,Cardiology,,10.20.2.162,failed,v3.2.1,15,brute_force_auth,Spoofing,rule_only,auth_failed;
+20851,2026-09-03 01:44:52,DEV-1049,smart_thermometer,PT-68485,Cardiology,,10.20.2.162,failed,v3.2.1,19,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20852,2026-09-03 01:44:56,DEV-1049,smart_thermometer,PT-68485,Cardiology,,10.20.2.162,failed,v3.2.1,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+13160,2026-09-03 01:45:00,DEV-1045,glucose_monitor,PT-28212,Pediatrics,171.74,10.20.2.44,success,v3.2.1,2,normal,Under Review,ml_only,
+7401,2026-09-03 02:00:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,133.82,10.20.3.138,success,v3.2.2,321,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+9129,2026-09-03 02:00:00,DEV-1031,smart_infusion_pump,PT-36423,ICU,14.06,10.20.2.9,success,v3.2.2,3,normal,Under Review,ml_only,
+15754,2026-09-03 02:15:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.2,10.20.1.21,success,v3.2.1,314,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12874,2026-09-03 02:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,174.86,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+20362,2026-09-03 02:15:00,DEV-1070,bp_monitor,PT-57983,ICU,106.52,10.20.1.146,success,v3.3.0,304,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+15755,2026-09-03 02:30:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.45,10.20.1.21,success,v3.2.1,150,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12588,2026-09-03 02:45:00,DEV-1043,glucose_monitor,PT-50442,ICU,172.22,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12300,2026-09-03 02:45:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,90.78,10.20.3.31,success,v1.9.9,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+5677,2026-09-03 03:00:00,DEV-1019,wearable_spo2,PT-44872,General-A,97.88,45.155.204.23,success,v3.2.1,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+493,2026-09-03 03:00:00,DEV-1001,wearable_ecg,PT-49498,ICU,74.93,10.20.3.164,success,v3.2.1,243,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12877,2026-09-03 03:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,162.65,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+12014,2026-09-03 03:15:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,176.41,10.20.3.182,success,v3.2.2,3,normal,Under Review,ml_only,
+11726,2026-09-03 03:15:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,176.97,10.20.2.6,success,v3.2.1,2,normal,Under Review,ml_only,
+11727,2026-09-03 03:30:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,171.16,10.20.2.6,success,v3.2.1,1,normal,Under Review,ml_only,
+12880,2026-09-03 03:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,150.92,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+2801,2026-09-03 04:00:00,DEV-1009,wearable_ecg,PT-41906,General-B,68.92,10.20.3.179,success,v3.2.2,228,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12881,2026-09-03 04:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,164.78,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+497,2026-09-03 04:00:00,DEV-1001,wearable_ecg,PT-49498,ICU,77.23,10.20.3.164,success,v3.2.1,173,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+18643,2026-09-03 04:30:00,DEV-1064,bp_monitor,PT-38860,ICU,139.59,10.20.2.205,success,v3.2.1,1,normal,Under Review,ml_only,
+10868,2026-09-03 04:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,166.81,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+12021,2026-09-03 05:00:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,171.72,10.20.3.182,success,v3.2.2,3,normal,Under Review,ml_only,
+10870,2026-09-03 05:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,154.45,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+20778,2026-09-03 05:29:28,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,17,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20779,2026-09-03 05:29:32,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+20780,2026-09-03 05:29:36,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20781,2026-09-03 05:29:40,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,8,brute_force_auth,Spoofing,rule_only,auth_failed;
+20782,2026-09-03 05:29:44,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20783,2026-09-03 05:29:48,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,18,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20784,2026-09-03 05:29:52,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,17,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20785,2026-09-03 05:29:56,DEV-1067,bp_monitor,PT-84680,Pediatrics,,10.20.1.226,failed,v3.3.0,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+12311,2026-09-03 05:30:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,160.16,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+12887,2026-09-03 05:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,153.18,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+2808,2026-09-03 05:45:00,DEV-1009,wearable_ecg,PT-41906,General-B,67.81,10.20.3.179,success,v3.2.2,381,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12601,2026-09-03 06:00:00,DEV-1043,glucose_monitor,PT-50442,ICU,168.04,10.20.1.153,success,v3.3.0,2,normal,Under Review,ml_only,
+15769,2026-09-03 06:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.57,10.20.1.21,success,v3.2.1,304,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12890,2026-09-03 06:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,177.73,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+14330,2026-09-03 06:15:00,DEV-1049,smart_thermometer,PT-68485,Cardiology,37.61,194.61.24.2,success,v3.2.1,2,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+5403,2026-09-03 06:30:00,DEV-1018,wearable_spo2,PT-49169,Pediatrics,95.78,10.20.3.116,success,v1.9.9,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+12891,2026-09-03 06:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,174.32,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+10875,2026-09-03 06:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,163.02,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+219,2026-09-03 06:30:00,DEV-1000,wearable_ecg,PT-18032,Cardiology,314.21,10.20.2.211,success,v3.3.0,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+13468,2026-09-03 06:45:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,167.89,10.20.1.239,success,v3.2.2,1,normal,Under Review,ml_only,
+11452,2026-09-03 06:45:00,DEV-1039,glucose_monitor,PT-42562,General-A,304.33,10.20.1.204,success,v3.3.0,3,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+12317,2026-09-03 07:00:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,179.84,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+797,2026-09-03 07:00:00,DEV-1002,wearable_ecg,PT-57382,Pediatrics,204.86,10.20.3.19,success,v3.2.2,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+16349,2026-09-03 07:00:00,DEV-1056,smart_thermometer,PT-34825,General-B,36.47,10.20.3.139,success,v2.0.0,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+510,2026-09-03 07:15:00,DEV-1001,wearable_ecg,PT-49498,ICU,87.84,45.155.204.244,success,v3.2.1,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+10590,2026-09-03 07:15:00,DEV-1036,glucose_monitor,PT-94423,ICU,166.83,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+12607,2026-09-03 07:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,171.68,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12895,2026-09-03 07:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,162.48,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+13183,2026-09-03 07:30:00,DEV-1045,glucose_monitor,PT-28212,Pediatrics,175.65,10.20.2.44,success,v3.2.1,2,normal,Under Review,ml_only,
+16639,2026-09-03 07:30:00,DEV-1057,smart_thermometer,PT-54163,ICU,36.41,10.20.2.196,success,v3.2.1,351,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10879,2026-09-03 07:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,168.13,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+1088,2026-09-03 07:45:00,DEV-1003,wearable_ecg,PT-78501,General-B,58.63,10.20.1.29,success,v2.1.4,3,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+16929,2026-09-03 08:00:00,DEV-1058,smart_thermometer,PT-82682,General-A,36.52,194.61.24.194,success,v3.2.2,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+8290,2026-09-03 08:15:00,DEV-1028,smart_infusion_pump,PT-98445,General-A,34.75,185.220.101.24,success,v3.3.0,1,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+12898,2026-09-03 08:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,124.39,194.61.24.226,success,v3.2.1,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+7427,2026-09-03 08:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,28.26,10.20.3.138,success,v3.2.2,254,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+8867,2026-09-03 08:30:00,DEV-1030,smart_infusion_pump,PT-87009,General-A,78.25,10.20.3.125,success,v2.0.0,3,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+16644,2026-09-03 08:45:00,DEV-1057,smart_thermometer,PT-54163,ICU,36.73,194.61.24.183,success,v3.2.1,1,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+518,2026-09-03 09:15:00,DEV-1001,wearable_ecg,PT-49498,ICU,76.39,10.20.3.164,success,v3.2.1,187,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12615,2026-09-03 09:30:00,DEV-1043,glucose_monitor,PT-50442,ICU,176.42,10.20.1.153,success,v3.3.0,3,normal,Under Review,ml_only,
+20836,2026-09-03 09:44:16,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,8,brute_force_auth,Spoofing,rule_only,auth_failed;
+20837,2026-09-03 09:44:20,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20838,2026-09-03 09:44:24,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,11,brute_force_auth,Spoofing,rule_only,auth_failed;
+20839,2026-09-03 09:44:28,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,16,brute_force_auth,Spoofing,rule_only,auth_failed;
+20840,2026-09-03 09:44:32,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20841,2026-09-03 09:44:36,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20842,2026-09-03 09:44:40,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,19,brute_force_auth,Spoofing,rule_only,auth_failed;
+20843,2026-09-03 09:44:44,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20844,2026-09-03 09:44:48,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20845,2026-09-03 09:44:52,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,19,brute_force_auth,Spoofing,rule_only,auth_failed;
+20846,2026-09-03 09:44:56,DEV-1014,wearable_spo2,PT-81610,ICU,,10.20.2.52,failed,v3.2.1,14,brute_force_auth,Spoofing,rule_only,auth_failed;
+15784,2026-09-03 09:45:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.58,10.20.1.21,success,v3.2.1,206,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12904,2026-09-03 09:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,148.06,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+8584,2026-09-03 09:45:00,DEV-1029,smart_infusion_pump,PT-46767,ICU,332.93,10.20.1.68,success,v3.2.1,1,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12905,2026-09-03 10:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,150.23,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+1673,2026-09-03 10:00:00,DEV-1005,wearable_ecg,PT-93407,General-B,90.07,45.155.204.2,success,v3.2.1,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+20393,2026-09-03 10:00:00,DEV-1070,bp_monitor,PT-57983,ICU,109.35,10.20.1.146,success,v3.3.0,226,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10890,2026-09-03 10:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,140.08,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+12907,2026-09-03 10:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,166.89,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+10891,2026-09-03 10:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,170.08,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+9164,2026-09-03 10:45:00,DEV-1031,smart_infusion_pump,PT-36423,ICU,13.42,10.20.2.9,success,v3.2.2,2,normal,Under Review,ml_only,
+14348,2026-09-03 10:45:00,DEV-1049,smart_thermometer,PT-68485,Cardiology,37.19,10.20.2.162,success,v2.0.0,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+20396,2026-09-03 10:45:00,DEV-1070,bp_monitor,PT-57983,ICU,113.7,10.20.1.146,success,v3.3.0,344,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10892,2026-09-03 10:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,174.59,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+7437,2026-09-03 11:00:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,53.95,10.20.3.138,success,v3.2.2,269,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20686,2026-09-03 11:15:00,DEV-1071,bp_monitor,PT-49158,ICU,451.2,10.20.3.20,success,v3.2.2,1,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12047,2026-09-03 11:30:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,172.87,10.20.3.182,success,v3.2.2,2,normal,Under Review,ml_only,
+10895,2026-09-03 11:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,163.74,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+7440,2026-09-03 11:45:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,12.18,10.20.3.138,success,v3.2.2,1,normal,Under Review,ml_only,
+13776,2026-09-03 11:45:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,174.84,10.20.2.8,success,v3.2.2,2,normal,Under Review,ml_only,
+9169,2026-09-03 12:00:00,DEV-1031,smart_infusion_pump,PT-36423,ICU,27.83,10.20.2.9,success,v3.2.2,1,normal,Under Review,ml_only,
+12626,2026-09-03 12:15:00,DEV-1043,glucose_monitor,PT-50442,ICU,176.79,10.20.1.153,success,v3.3.0,1,normal,Under Review,ml_only,
+12050,2026-09-03 12:15:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,177.65,10.20.3.182,success,v3.2.2,3,normal,Under Review,ml_only,
+18675,2026-09-03 12:30:00,DEV-1064,bp_monitor,PT-38860,ICU,114.39,10.20.2.205,success,v3.2.1,3,normal,Under Review,ml_only,
+9459,2026-09-03 12:30:00,DEV-1032,smart_infusion_pump,PT-99648,Cardiology,358.74,10.20.2.225,success,v3.3.0,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+20786,2026-09-03 12:44:32,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,14,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20787,2026-09-03 12:44:36,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,14,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20788,2026-09-03 12:44:40,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,9,brute_force_auth,Spoofing,rule_only,auth_failed;
+20789,2026-09-03 12:44:44,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,10,brute_force_auth,Spoofing,rule_only,auth_failed;
+20790,2026-09-03 12:44:48,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,8,brute_force_auth,Spoofing,rule_only,auth_failed;
+20791,2026-09-03 12:44:52,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,15,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20792,2026-09-03 12:44:56,DEV-1055,smart_thermometer,PT-96269,General-B,,10.20.3.184,failed,v3.2.1,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+13781,2026-09-03 13:00:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,175.02,10.20.2.8,success,v3.2.2,2,normal,Under Review,ml_only,
+11189,2026-09-03 13:00:00,DEV-1038,glucose_monitor,PT-71532,Cardiology,172.11,10.20.2.27,success,v3.2.1,3,normal,Under Review,ml_only,
+9750,2026-09-03 13:15:00,DEV-1033,smart_infusion_pump,PT-46574,General-A,533.9,10.20.1.170,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;
+13495,2026-09-03 13:30:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,177.51,10.20.1.239,success,v3.2.2,1,normal,Under Review,ml_only,
+12920,2026-09-03 13:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,164.02,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+13496,2026-09-03 13:45:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,172.52,10.20.1.239,success,v3.2.2,3,normal,Under Review,ml_only,
+12921,2026-09-03 14:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,171.31,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+12058,2026-09-03 14:15:00,DEV-1041,glucose_monitor,PT-72972,Cardiology,175.37,10.20.3.182,success,v3.2.2,3,normal,Under Review,ml_only,
+12922,2026-09-03 14:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,168.06,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+10907,2026-09-03 14:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,155.83,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+12923,2026-09-03 14:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,169.73,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+15804,2026-09-03 14:45:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.22,10.20.1.21,success,v3.2.1,269,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+13789,2026-09-03 15:00:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,409.29,10.20.2.8,success,v3.2.2,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12349,2026-09-03 15:00:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,176.22,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+18685,2026-09-03 15:00:00,DEV-1064,bp_monitor,PT-38860,ICU,131.88,10.20.2.205,success,v3.2.1,1,normal,Under Review,ml_only,
+18686,2026-09-03 15:15:00,DEV-1064,bp_monitor,PT-38860,ICU,136.04,10.20.2.205,success,v3.2.1,1,normal,Under Review,ml_only,
+15806,2026-09-03 15:15:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.17,10.20.1.21,success,v3.2.1,333,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+13790,2026-09-03 15:15:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,165.48,10.20.2.8,success,v3.2.2,3,normal,Under Review,ml_only,
+12927,2026-09-03 15:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,146.37,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+10911,2026-09-03 15:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,170.46,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+12928,2026-09-03 15:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,174.13,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+10912,2026-09-03 15:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,162.9,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+545,2026-09-03 16:00:00,DEV-1001,wearable_ecg,PT-49498,ICU,87.25,10.20.3.164,success,v3.2.1,376,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20417,2026-09-03 16:00:00,DEV-1070,bp_monitor,PT-57983,ICU,102.92,10.20.1.146,success,v3.3.0,203,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10915,2026-09-03 16:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,175.42,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+7459,2026-09-03 16:30:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,20.59,10.20.3.138,success,v3.2.2,376,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+16675,2026-09-03 16:30:00,DEV-1057,smart_thermometer,PT-54163,ICU,36.23,10.20.2.196,success,v3.2.1,206,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12355,2026-09-03 16:30:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,176.37,10.20.3.31,success,v3.2.1,2,normal,Under Review,ml_only,
+12356,2026-09-03 16:45:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,175.34,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+18692,2026-09-03 16:45:00,DEV-1064,bp_monitor,PT-38860,ICU,122.65,10.20.2.205,success,v3.2.1,3,normal,Under Review,ml_only,
+12932,2026-09-03 16:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,74.27,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+12357,2026-09-03 17:00:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,164.09,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+2853,2026-09-03 17:00:00,DEV-1009,wearable_ecg,PT-41906,General-B,67.07,10.20.3.179,success,v3.2.2,209,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+18694,2026-09-03 17:15:00,DEV-1064,bp_monitor,PT-38860,ICU,135.87,10.20.2.205,success,v3.2.1,2,normal,Under Review,ml_only,
+20711,2026-09-03 17:30:00,DEV-1071,bp_monitor,PT-49158,ICU,318.13,10.20.3.20,success,v3.2.2,3,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+2855,2026-09-03 17:30:00,DEV-1009,wearable_ecg,PT-41906,General-B,59.0,10.20.3.179,success,v3.2.2,335,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12936,2026-09-03 17:45:00,DEV-1044,glucose_monitor,PT-21481,General-B,155.07,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+18696,2026-09-03 17:45:00,DEV-1064,bp_monitor,PT-38860,ICU,127.09,10.20.2.205,success,v3.2.1,1,normal,Under Review,ml_only,
+7466,2026-09-03 18:15:00,DEV-1025,smart_infusion_pump,PT-52398,ICU,38.43,10.20.3.138,success,v3.2.2,248,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10922,2026-09-03 18:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,167.52,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+14955,2026-09-03 18:30:00,DEV-1051,smart_thermometer,PT-39687,Cardiology,37.69,10.20.1.7,success,v3.2.2,1,normal,Under Review,ml_only,
+20427,2026-09-03 18:30:00,DEV-1070,bp_monitor,PT-57983,ICU,119.08,10.20.1.146,success,v3.3.0,381,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12939,2026-09-03 18:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,179.35,10.20.3.101,success,v3.2.1,1,normal,Under Review,ml_only,
+12365,2026-09-03 19:00:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,174.78,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+18701,2026-09-03 19:00:00,DEV-1064,bp_monitor,PT-38860,ICU,136.01,10.20.2.205,success,v3.2.1,3,normal,Under Review,ml_only,
+10926,2026-09-03 19:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,288.54,10.20.2.64,success,v3.2.1,2,spoofed_vital_reading,Tampering,rule+ml,extreme_zscore;
+12366,2026-09-03 19:15:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,175.31,10.20.3.31,success,v3.2.1,2,normal,Under Review,ml_only,
+9198,2026-09-03 19:15:00,DEV-1031,smart_infusion_pump,PT-36423,ICU,137.04,45.155.204.27,success,v3.2.2,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+13518,2026-09-03 19:15:00,DEV-1046,glucose_monitor,PT-51688,Pediatrics,158.88,10.20.1.239,success,v3.2.2,1,normal,Under Review,ml_only,
+15823,2026-09-03 19:30:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.29,10.20.1.21,success,v3.2.1,281,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+12367,2026-09-03 19:30:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,165.88,10.20.3.31,success,v3.2.1,1,normal,Under Review,ml_only,
+12943,2026-09-03 19:30:00,DEV-1044,glucose_monitor,PT-21481,General-B,90.09,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+10927,2026-09-03 19:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,178.98,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+4592,2026-09-03 19:45:00,DEV-1015,wearable_spo2,PT-21692,General-A,95.64,10.20.1.83,success,v2.0.0,1,firmware_downgrade,Tampering,rule_only,vulnerable_firmware;
+10929,2026-09-03 20:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,152.21,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+20744,2026-09-03 20:29:40,DEV-1043,glucose_monitor,PT-50442,ICU,,10.20.1.153,failed,v3.3.0,12,brute_force_auth,Spoofing,rule_only,auth_failed;
+20745,2026-09-03 20:29:44,DEV-1043,glucose_monitor,PT-50442,ICU,,10.20.1.153,failed,v3.3.0,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20746,2026-09-03 20:29:48,DEV-1043,glucose_monitor,PT-50442,ICU,,10.20.1.153,failed,v3.3.0,8,brute_force_auth,Spoofing,rule_only,auth_failed;
+20747,2026-09-03 20:29:52,DEV-1043,glucose_monitor,PT-50442,ICU,,10.20.1.153,failed,v3.3.0,13,brute_force_auth,Spoofing,rule_only,auth_failed;
+20748,2026-09-03 20:29:56,DEV-1043,glucose_monitor,PT-50442,ICU,,10.20.1.153,failed,v3.3.0,15,brute_force_auth,Spoofing,rule_only,auth_failed;
+9203,2026-09-03 20:30:00,DEV-1031,smart_infusion_pump,PT-36423,ICU,19.13,10.20.2.9,success,v3.2.2,2,normal,Under Review,ml_only,
+12371,2026-09-03 20:30:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,150.76,10.20.3.31,success,v3.2.1,3,normal,Under Review,ml_only,
+18708,2026-09-03 20:45:00,DEV-1064,bp_monitor,PT-38860,ICU,123.67,10.20.2.205,success,v3.2.1,2,normal,Under Review,ml_only,
+10933,2026-09-03 21:00:00,DEV-1037,glucose_monitor,PT-72668,ICU,97.58,10.20.2.64,success,v3.2.1,2,normal,Under Review,ml_only,
+12949,2026-09-03 21:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,168.45,10.20.3.101,success,v3.2.1,3,normal,Under Review,ml_only,
+13813,2026-09-03 21:00:00,DEV-1047,glucose_monitor,PT-78265,Cardiology,171.81,10.20.2.8,success,v3.2.2,1,normal,Under Review,ml_only,
+15829,2026-09-03 21:00:00,DEV-1054,smart_thermometer,PT-36527,ICU,36.46,10.20.1.21,success,v3.2.1,206,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10936,2026-09-03 21:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,153.25,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+14968,2026-09-03 21:45:00,DEV-1051,smart_thermometer,PT-39687,Cardiology,37.48,194.61.24.223,success,v3.2.2,3,unauthorized_ip_access,Elevation of Privilege,rule_only,external_ip;
+11801,2026-09-03 22:00:00,DEV-1040,glucose_monitor,PT-42963,Pediatrics,166.47,10.20.2.6,success,v3.2.1,3,normal,Under Review,ml_only,
+10938,2026-09-03 22:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,169.44,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+18714,2026-09-03 22:15:00,DEV-1064,bp_monitor,PT-38860,ICU,108.94,10.20.2.205,success,v3.2.1,1,normal,Under Review,ml_only,
+20820,2026-09-03 22:29:40,DEV-1002,wearable_ecg,PT-57382,Pediatrics,,10.20.3.19,failed,v3.2.2,16,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20821,2026-09-03 22:29:44,DEV-1002,wearable_ecg,PT-57382,Pediatrics,,10.20.3.19,failed,v3.2.2,17,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20822,2026-09-03 22:29:48,DEV-1002,wearable_ecg,PT-57382,Pediatrics,,10.20.3.19,failed,v3.2.2,15,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20823,2026-09-03 22:29:52,DEV-1002,wearable_ecg,PT-57382,Pediatrics,,10.20.3.19,failed,v3.2.2,14,brute_force_auth,Spoofing,rule+ml,auth_failed;
+20824,2026-09-03 22:29:56,DEV-1002,wearable_ecg,PT-57382,Pediatrics,,10.20.3.19,failed,v3.2.2,11,brute_force_auth,Spoofing,rule+ml,auth_failed;
+10939,2026-09-03 22:30:00,DEV-1037,glucose_monitor,PT-72668,ICU,174.19,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+10651,2026-09-03 22:30:00,DEV-1036,glucose_monitor,PT-94423,ICU,175.76,10.20.2.233,success,v3.2.1,3,normal,Under Review,ml_only,
+15835,2026-09-03 22:30:00,DEV-1054,smart_thermometer,PT-36527,ICU,37.56,10.20.1.21,success,v3.2.1,248,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10940,2026-09-03 22:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,178.44,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+12380,2026-09-03 22:45:00,DEV-1042,glucose_monitor,PT-33502,Cardiology,166.39,10.20.3.31,success,v3.2.1,2,normal,Under Review,ml_only,
+13244,2026-09-03 22:45:00,DEV-1045,glucose_monitor,PT-28212,Pediatrics,165.0,10.20.2.44,success,v3.2.1,1,normal,Under Review,ml_only,
+12957,2026-09-03 23:00:00,DEV-1044,glucose_monitor,PT-21481,General-B,151.42,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+10942,2026-09-03 23:15:00,DEV-1037,glucose_monitor,PT-72668,ICU,146.61,10.20.2.64,success,v3.2.1,1,normal,Under Review,ml_only,
+12958,2026-09-03 23:15:00,DEV-1044,glucose_monitor,PT-21481,General-B,166.64,10.20.3.101,success,v3.2.1,2,normal,Under Review,ml_only,
+20446,2026-09-03 23:15:00,DEV-1070,bp_monitor,PT-57983,ICU,135.69,10.20.1.146,success,v3.3.0,313,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+20447,2026-09-03 23:30:00,DEV-1070,bp_monitor,PT-57983,ICU,103.83,10.20.1.146,success,v3.3.0,287,denial_of_service_burst,Denial of Service,rule+ml,high_request_rate;
+10944,2026-09-03 23:45:00,DEV-1037,glucose_monitor,PT-72668,ICU,152.83,10.20.2.64,success,v3.2.1,3,normal,Under Review,ml_only,
+14976,2026-09-03 23:45:00,DEV-1051,smart_thermometer,PT-39687,Cardiology,130.44,10.20.1.7,success,v3.2.2,3,spoofed_vital_reading,Tampering,rule_only,extreme_zscore;

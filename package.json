@@ -1,0 +1,12 @@
+{
+  "name": "healthcare-iot-security-report",
+  "version": "1.0.0",
+  "description": "Node/docx-js script that builds the Word threat & privacy assessment report",
+  "private": true,
+  "scripts": {
+    "build-report": "node scripts/build_report.js"
+  },
+  "dependencies": {
+    "docx": "^9.6.1"
+  }
+}

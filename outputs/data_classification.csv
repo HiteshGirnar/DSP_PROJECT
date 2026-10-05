@@ -1,0 +1,9 @@
+field,category,sensitivity,phi_hipaa,notes
+patient_id,Pseudonymous identifier,High,Yes (linkable),Direct link to a specific patient's record
+reading_value (vitals),Health data,High,Yes,Clinical vital signs; core PHI
+device_id,Device metadata,Medium,Indirect,Combined w/ timing can re-identify (k-anonymity risk)
+ward,Location metadata,Medium,Indirect,"Small wards -> low k, high re-id risk"
+timestamp,Temporal metadata,Medium,Indirect,Precise timing narrows the anonymity set
+source_ip,Network metadata,Medium,No,"Security-relevant; not clinical, but can reveal location/network"
+firmware_version,Device metadata,Low,No,"Security posture indicator, not personal data"
+battery_pct / signal,Telemetry metadata,Low,No,Operational data only

@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Claude" version="24.7.0">
+  <diagram name="Attack Tree - Infusion Pump" id="attack-tree-1">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="root" value="GOAL:&#10;Deliver incorrect medication dose&#10;via smart infusion pump" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="280" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Level 1: OR branches -->
+        <mxCell id="a1" value="A1. Compromise pump&#10;network communication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="A2. Exploit weak/default&#10;device authentication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="A3. Exploit outdated /&#10;downgraded firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="A4. Insider misuse&#10;(clinician/staff credential abuse)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="200" width="260" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="or1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="root" target="a1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="or2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="root" target="a2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="or3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="root" target="a3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="or4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="root" target="a4"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Level 2: sub-steps (AND under each OR branch) -->
+        <mxCell id="b1" value="Sniff unencrypted&#10;WiFi/BLE traffic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" value="Inject spoofed / replayed&#10;dosage command" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b3" value="Brute-force / reuse&#10;default device credentials" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" value="Authenticate as device&#10;and push malicious config" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b5" value="Force/trigger rollback to&#10;known-vulnerable firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6" value="Exploit known CVE in&#10;old firmware version" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="960" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b7" value="Obtain/misuse valid&#10;clinician login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8" value="Manually set incorrect&#10;infusion rate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="l1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a1" target="b1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l2" value="AND" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" edge="1" parent="1" source="a1" target="b2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a2" target="b3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l4" value="AND" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" edge="1" parent="1" source="a2" target="b4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l5" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a3" target="b5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l6" value="AND" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" edge="1" parent="1" source="a3" target="b6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l7" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="a4" target="b7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l8" value="OR" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;" edge="1" parent="1" source="a4" target="b8"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Mitigations row -->
+        <mxCell id="m1" value="Mitigation: TLS/DTLS encryption +&#10;mutual device certificates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="Mitigation: unique per-device credentials,&#10;account lockout, MFA for admin actions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="Mitigation: signed firmware,&#10;anti-rollback protection, patch management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="860" y="460" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="Mitigation: RBAC, least privilege,&#10;session logging, dual-authorization for dosing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="460" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="n1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#6c8ebf;" edge="1" parent="1" source="b2" target="m1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="n2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#6c8ebf;" edge="1" parent="1" source="b4" target="m2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="n3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#6c8ebf;" edge="1" parent="1" source="b6" target="m3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="n4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#6c8ebf;" edge="1" parent="1" source="b8" target="m4"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

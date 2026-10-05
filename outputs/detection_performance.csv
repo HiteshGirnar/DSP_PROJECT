@@ -1,0 +1,4 @@
+detector,true_positives,false_positives,false_negatives,true_negatives,precision,recall,f1_score
+rule_based,279,0,25,20568,1.0,0.918,0.957
+isolation_forest,143,275,161,20293,0.342,0.47,0.396
+combined,281,275,23,20293,0.505,0.924,0.653
